@@ -8,9 +8,14 @@ export default Controller.extend({
       let date = this.get('date');
 
       // create new task
-      console.log('title', title);
-      console.log('description', description);
-      console.log('date', date)
+      let newTask = this.store.createRecord('task', {
+        title,
+        description,
+        date: new Date(date)
+      })
+
+      // save to fb
+      console.log(newTask)
     }
   }
 });

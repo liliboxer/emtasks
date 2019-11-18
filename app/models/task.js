@@ -1,10 +1,10 @@
-import Model from '@ember-data/model';
+import DS from 'ember-data';
 
-export default Model.extend({
-  title: Model.attr('string'),
-  description: Model.attr('string'),
-  date: Model.attr('date'),
-  created: Model.attr('string', {
+export default DS.Model.extend({
+  title: DS.attr('string'),
+  description: DS.attr('string'),
+  date: DS.attr('date'),
+  created: DS.attr('string', {
     default: function() {
       return new Date();
     }
