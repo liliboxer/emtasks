@@ -8,6 +8,9 @@ export default Controller.extend({
       let date = this.get('date');
 
       // create new task
+      console.log('title', title);
+      console.log('description', description);
+      console.log('date', date)
     }
   }
 });
