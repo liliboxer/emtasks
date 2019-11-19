@@ -15,7 +15,8 @@ export default Controller.extend({
       })
 
       // save to fb
-      console.log(newTask)
+      newTask.save();
+
     }
   }
 });

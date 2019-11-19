@@ -10,7 +10,10 @@ module.exports = function(environment) {
       authDomain: "emtasks-86c52.firebaseapp.com",
       databaseURL: "https://emtasks-86c52.firebaseio.com",
       projectId: "emtasks-86c52",
-      storageBucket: "emtasks-86c52.appspot.com"
+      storageBucket: "emtasks-86c52.appspot.com",
+      messagingSenderId: "955086184946",
+      appId: "1:955086184946:web:76084cd27940dd88374b6b",
+      measurementId: "G-7KL0EH6PR9"
     },
     rootURL: '/',
     locationType: 'auto',
