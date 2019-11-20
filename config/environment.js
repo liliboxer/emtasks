@@ -11,6 +11,7 @@ module.exports = function(environment) {
       storageBucket: "emtasks-86c52.appspot.com",
       messagingSenderId: "955086184946",
       appId: "1:955086184946:web:76084cd27940dd88374b6b",
+      projectId: "emtasks-86c52",
       measurementId: "G-7KL0EH6PR9"
     },
     rootURL: '/',
